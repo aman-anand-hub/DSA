@@ -18,7 +18,7 @@ void push(node **head, int data)
 
 void printList(node *head)
 {
-    while (head!=NULL)
+    while (head->next!=NULL)
     {
         cout<<head->data<<"->";
         head= head->next;
